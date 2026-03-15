@@ -1,0 +1,25 @@
+{
+  "source": "trained_from_scratch",
+  "target_column": "PH",
+  "models": [
+    "ARIMA",
+    "XGBoost"
+  ],
+  "repeats": 1,
+  "device": "cuda",
+  "epochs": 1,
+  "batch_size": 4,
+  "lr": 0.001,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "teacher_prob": 0.8,
+  "fm_k": 84,
+  "split": {
+    "split_mode": "fixed_indices",
+    "train_index_path": "trainindex.csv",
+    "test_index_path": "testindex.csv",
+    "train_size": 770,
+    "test_size": 193
+  }
+}

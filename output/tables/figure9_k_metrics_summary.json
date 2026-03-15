@@ -1,0 +1,16 @@
+{
+  "source": "trained_from_scratch",
+  "k_values": [
+    4,
+    84
+  ],
+  "repeats": 1,
+  "device": "cuda",
+  "epochs": 1,
+  "batch_size": 4,
+  "lr": 0.001,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "teacher_prob": 0.8
+}

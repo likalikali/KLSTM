@@ -1,0 +1,28 @@
+{
+  "source": "trained_from_scratch",
+  "data_path": "dataset2.csv",
+  "epochs": 10,
+  "fm_batch_size": 4,
+  "fc_batch_size": 4,
+  "lr": 0.001,
+  "hidden_size": 128,
+  "fm_num_layers": 2,
+  "fc_num_layers": 3,
+  "dropout": 0.2,
+  "teacher_prob": 0.8,
+  "fm_k": 84,
+  "plot_sample_indices": [
+    12,
+    548,
+    140,
+    325,
+    467
+  ],
+  "fc_train_data_path": "D:\\090100_TongjiResource\\090300_Ma\\090302_期刊论文\\JHI\\水质监测\\KFLSTM\\海门湾label=4(0).csv",
+  "fc_window_path": "D:\\090100_TongjiResource\\090300_Ma\\090302_期刊论文\\JHI\\水质监测\\KFLSTM\\xxx.csv",
+  "fc_train_size": 10502,
+  "fc_target_multiplier": 10.680000305175781,
+  "static_prediction_extraction_used": false,
+  "device": "cuda",
+  "elapsed_seconds": 280.09482169151306
+}

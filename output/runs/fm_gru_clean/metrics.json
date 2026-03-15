@@ -1,0 +1,37 @@
+{
+  "data_path": "dataset2.csv",
+  "target_column": "Dissolved oxygen",
+  "epochs": 10,
+  "batch_size": 4,
+  "lr": 0.001,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "teacher_prob": 0.8,
+  "fm_k": 84,
+  "seed": 42,
+  "device": "cuda",
+  "train_ratio": 0.8,
+  "split": {
+    "split_mode": "fixed_indices",
+    "train_index_path": "trainindex.csv",
+    "test_index_path": "testindex.csv",
+    "train_size": 770,
+    "test_size": 193
+  },
+  "elapsed_seconds": 170.7644202709198,
+  "batch_average_metrics": {
+    "MAE": 0.5847841097662846,
+    "MSE": 0.6124174644549688,
+    "RMSE": 0.7638874446324818,
+    "NRMSE": 0.16297548295309147,
+    "R": 0.6479067566494147
+  },
+  "pooled_metrics": {
+    "MAE": 0.5847841501235962,
+    "MSE": 0.612417459487915,
+    "RMSE": 0.7825710571493908,
+    "NRMSE": 0.1648314744234085,
+    "R": 0.7481252551078796
+  }
+}

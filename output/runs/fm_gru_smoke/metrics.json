@@ -1,0 +1,30 @@
+{
+  "data_path": "KRMData/oxy/原始数据平滑训练和验证集不平滑测试集.csv",
+  "target_column": "Dissolved oxygen",
+  "epochs": 1,
+  "batch_size": 8,
+  "lr": 0.001,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "teacher_prob": 0.8,
+  "fm_k": 84,
+  "seed": 42,
+  "device": "cpu",
+  "train_ratio": 0.8,
+  "elapsed_seconds": 109.73478817939758,
+  "batch_average_metrics": {
+    "MAE": 0.8381336175520485,
+    "MSE": 1.3677795047698036,
+    "RMSE": 1.132073687929396,
+    "NRMSE": 0.2190888377322334,
+    "R": 0.7365745078168513
+  },
+  "pooled_metrics": {
+    "MAE": 0.8381336331367493,
+    "MSE": 1.3677794933319092,
+    "RMSE": 1.1695210529665163,
+    "NRMSE": 0.2238340973854065,
+    "R": 0.7888323664665222
+  }
+}
