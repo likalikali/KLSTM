@@ -2,11 +2,20 @@
   "source": "trained_from_scratch",
   "k_values": [
     4,
-    84
+    12,
+    24,
+    36,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108,
+    120
   ],
   "repeats": 1,
   "device": "cuda",
-  "epochs": 1,
+  "epochs": 10,
   "batch_size": 4,
   "lr": 0.001,
   "hidden_size": 128,

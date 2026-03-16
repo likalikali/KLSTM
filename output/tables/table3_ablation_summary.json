@@ -1,8 +1,8 @@
 {
   "source": "trained_from_scratch",
-  "repeats": 1,
+  "repeats": 10,
   "device": "cuda",
-  "epochs": 1,
+  "epochs": 10,
   "batch_size": 4,
   "lr": 0.001,
   "hidden_size": 128,

@@ -1,16 +1,22 @@
 {
   "source": "trained_from_scratch",
   "batch_sizes": [
+    2,
     4,
-    8
+    8,
+    16,
+    32,
+    64,
+    128
   ],
   "learning_rates": [
     0.001,
-    0.01
+    0.01,
+    0.1
   ],
   "repeats": 1,
   "device": "cuda",
-  "epochs": 1,
+  "epochs": 10,
   "hidden_size": 128,
   "num_layers": 2,
   "dropout": 0.2,
